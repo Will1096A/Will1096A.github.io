@@ -3,20 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week 4</title>
+    <title>Week 4 Demo</title>
 </head>
 <body>
     <header>
-        <h1>Week 4</h1>
+        <h1>Week 4 Demo</h1>
+        <p>#=id reference</p>
+        <a href="#copyright">Go to bottom</a>
     </header>
     <main>
         <section>
-            <h2></h2>
-            <p>Lorem, ipsum dolor sit, this link opens Google on the same tab: used for internal pages <a href="https://google.com"amet consectetur adipisicing elit.>Google</a> Cupiditate nobis voluptas doloremque dolore ex similique nam quis consequuntur, sunt ipsum harum corrupti, saepe repudiandae qui perspiciatis sequi, quibusdam recusandae eius!</p>
+            <h2>Forms</h2>
+            <p>Form attributes: form action sends the completed form to a target website, the method command has two forms, get and post; get is the public method to get information from your form, while post is the private method to access your forms, labels are the start of the form, all labels need an input id (input is what the viewer fills in the form) which can have different types: passwords, dates, emails, colors, and text (which is the default), /placeholder= adds placeholder text within the form input, /textarea commands add a text area input used for larger inputs such as questions, the select command provides a dropdown menu of selectable options as an input with /option commands as the choices, /selected command adds the option value that its in as the default option, checkbox types adds a checkbox input, radio types add circle button inputs which let the viewer select only one choice, button commands add a clickable button which sends the form to the target website</p>
+            <form action="test.html" method="get">
+                <div>
+                    <label for="Fname">First Name</label>
+                    <input id="Fname" type="text" name="firstname" placeholder="John">
+                </div>
+                <div>
+                    <label for="comment">Question</label>
+                    <textarea id="comment" name="msg"></textarea>
+                </div>
+                <div>
+                    <label for="program">Program</label>
+                    <select id="program" name="program">
+                        <option value="gd">Graphic Design</option>
+                        <option value="imd">Interactive Media</option>
+                        <option value="none" selected>None</option>
+                    </select>
+                </div>
+                <div>
+                    <h3>Program Choices</h3>
+                    <label for="bus">Business</label>
+                    <input type="checkbox" id="bus" name="business">
+                    <label for="cook">Cooking</label>
+                    <input type="checkbox" id="cook" name="cooking">
+                </div>
+                <div>
+                    <h3>Are You Sure?</h3>
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="yes" name="yesorno" value="yes">
+
+                    <label for="no">No</label>
+                    <input type="radio" id="no" name="yesorno" value="no">            
+                </div>
+                <div>
+                    <button type="submit">SEND</button>
+                </div>
+            </form>
+        </section>
+        <section>
+             <p>Commands: tr command=table row, each table row adds another below, th command=table heading, tbody command= table body, td command= table data</p>
+            <h2>Tables</h2>
+            <table>
+                <caption>Student List</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>ID</th>
+                        <th>Program</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alyas</td>
+                        <td>001</td>
+                        <td>IMD</td>
+                    </tr>
+                    <tr>
+                        <td>Dog</td>
+                        <td>002</td>
+                        <td>Running</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Links</h2>
+            <p>/a href commands direct the viewer to a part on the site or another page, lorem, ipsum dolor sit, this link opens Google on the same tab: used for internal pages <a href="https://google.com"amet consectetur adipisicing elit.>Google</a> Cupiditate nobis voluptas doloremque dolore ex similique nam quis consequuntur, sunt ipsum harum corrupti, saepe repudiandae qui perspiciatis sequi, quibusdam recusandae eius!</p>
             <p>Lorem ipsum dolor sit amet, this link opens Google on a new tab <a href="https://google.com" target="_blank">Google</a> consectetur adipisicing elit. Voluptatem maxime fuga molestias dignissimos reprehenderit quisquam eveniet eaque alias temporibus velit voluptatibus, asperiores omnis mollitia adipisci ab quas possimus deserunt laboriosam.</p>
         </section>
-    <img src="images/birds.jpg" alt="images of a bird" />
+    <img src="images/bird.jpg" height=400 width=600 alt="images of a bird" />
     <img title="Coffee Cup on a Desk" src="images/coffee.jpg" />
+    <hr>
+    <a href="#cakes">Jumps to cake menu</a>
     </main>
+    <footer id="copyright">
+        <p>"p*5>lorem or *number multiplies the /p command and adds lorem text inside</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nam nemo molestias possimus, aspernatur culpa vel laudantium alias minima eos accusantium necessitatibus eveniet dicta eius dolor quisquam libero praesentium natus.</p>
+        <p>Deserunt dolorum ratione commodi exercitationem, rerum corporis, velit quidem earum molestiae sit reprehenderit libero consequatur eos sint explicabo quia. At iure blanditiis magni nobis. Exercitationem beatae iste corporis. Porro, ipsam?</p>
+        <p>Temporibus neque unde molestiae ex provident delectus, accusamus commodi blanditiis voluptates sint, quidem in impedit necessitatibus ad laudantium dignissimos aliquam, officiis eos facilis cumque. Maiores est voluptatibus ea et! Voluptatem?</p>
+        <p>Autem eos voluptatem minima quam vitae hic sequi temporibus assumenda deleniti, deserunt et? Nostrum autem placeat architecto, necessitatibus cum ratione inventore natus minus. Est saepe necessitatibus sed, sunt repudiandae iste.</p>
+        <p>Necessitatibus molestias voluptates minima minus facere dolor tempora sequi dolorem optio rem. Saepe, perspiciatis corporis delectus aliquid odio culpa dolores ducimus! Quia porro quisquam doloribus molestiae nobis eaque provident esse.</p>
+        <p>Copyright (C) 2026, Alyas W.</p>
+    </footer>
 </body>
 </html>
