@@ -1,0 +1,30 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* line-height is the ratio based space between lines of text, should be more than the base size to prevent touching letters */
+    line-height: 1.4;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header {
+    font-size: 200%;
+}
+
+/* rem attributes ignore the parent size, 2rem is the base size multiplied by 2 */
+h1 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+/* vh - is a unit based on the height of the viewport (browser), vw is a unit based on the width of the viewport (browser)  */
