@@ -1,0 +1,55 @@
+/* this is a css comment */
+section{
+    color:darkred;
+}
+
+h2,h3 {
+    font-style: italic;
+}
+
+header nav li {
+    background-color: orangered;
+}
+
+/* dot for class */
+.strong {
+    font-weight: bold;
+}
+
+/* #hashtag for id */
+#orange {
+    background-color: orange;
+}
+
+/* descendant (space) targets all descendants within a selector, child (>) targets direct "children" of a selector (just the first descendant), adjacent (+) targets the next element adjacent to the selector, sibling (~) targets all sibling elements next to a selector*/
+/* LVHA history states below: link, visited, hover, active */
+a:link {
+    font-weight: bold;
+}
+
+a:visited {
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+}
+
+nav ul :last-child {
+    background-color: #ff0009;
+    font-style: italic;
+}
+/*ff-0() color: rgb (256,0,0) red, green, blue values
+ color: rgba (256,0,0,0(transparency)) */
+
+/* nth = a variable number */
+nav ul :nth-child(3) {
+    font-size: 20px;
+}
+
+/* !important tag, inline > #id > psuedo-class > tag 
+, #ids look like #oranges, psuedo-classes look like :strong or .strong*, tags are attributes like /p or /h2 /
