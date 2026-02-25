@@ -1,0 +1,94 @@
+* {
+    /* * selects all elements on a page */
+    /* short method of spacing */
+    box-sizing: border-box;
+
+}
+
+.clearfix::after {
+    /* generators text "" after any .clearfix, clears any float */
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.stage {
+    /* position: relative; */
+    width: 100%;
+    height: 300px;
+    background-color: #CCC;
+}
+
+.prop {
+    /* positions the prop across the screen, 20px from the top, 50 from the left */
+    /* position: relative; relative to the viewport
+    position: absolute is the absolute position to the top of the page
+    position: fixed stays fixed on the screen while scrolling */
+    position: fixed;
+    top: 0px;
+    left: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+}
+
+.box {
+    /* long method of spacing */
+    width: 400px;
+    height: 400px;
+    background-color: coral;
+    /* box model properties */
+    padding: 28px;
+    border: 5px solid black;
+    /* margin: 0 auto; */
+    /* margin auto automatically sizes the margin, width values are required to use this */
+
+    /* text-align: center; */
+}
+
+body {
+    background-color:orangered
+}
+
+.wrapper {
+    width: 800px;
+    background-color: bisque;
+    margin: auto;
+}
+
+nav {
+    position: relative;
+    z-index: 1;
+}
+
+nav ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    border-right: 1px solid #999;
+    width: 33%;
+}
+
+nav li:last-child {
+    border-right: none;
+    /* display: none; removes display */
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    /* float: left; wrap text around this element */
+    float: left;
+}
+
+footer {
+    /* clear: both */
+    /* clears both left and right float to prevent wrapping text beside box */
+}
+
