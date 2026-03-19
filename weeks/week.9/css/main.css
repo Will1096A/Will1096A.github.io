@@ -1,0 +1,75 @@
+@media screen and (min-width: 650px){
+    body {
+        font-size: 1.25 rem;
+    }
+    /* code for using the @media rule on a screen with a minimum width of 650px to apply the attributes listed in the body selector */
+}
+
+@media screen and (min-width: 650px){
+  /* Styles applied for minimum width of 650px and over */
+}
+
+@media screen and (max-width: 900px){
+  /* Styles applied below width of 900px */
+}
+
+@media screen and (min-width: 400px) and (max-width: 1000px){
+  /* Styles applied between 400px and 1000px */
+}
+
+@media print{
+  /* Styles for the print of the page */
+}
+
+@media print{
+  img{
+    display: none;
+  }
+  /* turns off image display when printing */
+}
+
+body {
+    display:flex;
+}
+
+/* an example of larger text for wider screens */
+body{
+  font-size: 1rem;
+  font-family: georgia;
+  margin: 2rem;
+}
+
+/*
+When the screen is a minimum width of 650px, the font size will increase
+*/
+
+@media screen and (min-width:650px){
+  body{
+    font-size: 1.5rem;
+  }
+}
+
+/* HTML CSSResult Skip Results Iframe
+EDIT ON
+body{
+  background: #FFFFD4;
+}
+
+.container{
+  width: 128px;
+  height: 128px;
+  margin: 0 auto;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Creative-Tail-Animal-mouse.svg/128px-Creative-Tail-Animal-mouse.svg.png);
+}
+
+/*
+A larger herd of elephants is served to anything above 650px
+*/
+/* @media screen and (min-width:650px){
+  .container{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/3/30/Borneoelephants.jpg);
+    width:650px;
+    height: 650px;
+    border-radius: 50%;
+  }
+} */ 

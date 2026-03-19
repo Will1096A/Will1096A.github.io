@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+.wrapper {
+    background-color: white;
+    width: 600 px;
+    margin: auto;
+    /* margin auto automatically distributes leftover space */
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    flex-wrap: nowrap;
+    /* flex wrap allows the line to wrap to another line if there isn't space */
+}
+
+.box:nth-child(1) {
+    background-color: aliceblue;
+    flex-grow: 2;
+    /* flex-grow pushes the selected box into the flex:end between the next or available spacing between other boxes depending on the justify-content: */
+    /* flex-grow also replaces the width value in rows or the height value in columns, as well as replacing a media query */
+}
+
+.box:nth-child(2) {
+    background-color: blue;
+}
+
+.box:nth-child(3) {
+    background-color: lightblue;
+    flex-grow: 4;
+}
+
+.box:nth-child(4) {
+    background-color: navy;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    /* changes the direction of the boxes, flex doesn't use left or right, only center, start and end values.
+    direction: row lines the boxes in a row, direction: column lines the boxes in a column. */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end, justify-content: flex-start, justify-content: center, positions the content to the end/start/middle of the flex box */
+    justify-content: space-evenly; 
+    /* justify-content: space-around; justify-content: space-between; justify-content: space-evenly; spaces the boxes in the line with equal space around, spaced on the first and last lines, and spaced evenly between each other.  */
+}
