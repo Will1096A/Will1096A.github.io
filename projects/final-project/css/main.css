@@ -1,0 +1,290 @@
+
+* {
+    font-size: 16px;
+    font-family: arial;
+}
+
+.headerbox {
+    width: 95%;
+    height: 450px;
+    background-color: black;
+    display: grid;
+    grid-template-rows: repeat (5, 1fr);
+    align-items: center;
+    font-size: 18px;
+    /* margin: 30px; */
+    position: absolute;
+    left: 15px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+}
+/* .headerlist {
+    display: grid;
+    grid-template-rows: repeat (5, 1fr);
+    justify-items: center;
+    align-items: center;
+    font-size: 18px;
+} */
+
+.headerlist li {
+    padding-bottom: 40px;
+    color:  #C68D00;
+    justify-self: center;
+}
+
+.orangebox {
+    width: 95%;
+    height: 190px;
+    background-color:  #C68D00; 
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+.headerlist li:nth-child(1) {
+    color: black;
+}
+
+.searchbar {
+    padding:15px;
+    padding-bottom: 20px;
+    width: 100px;
+    position: absolute;
+    top: 400px;
+}
+
+.main-banner {
+    width: 95%;
+    height: 500px;
+    position: relative;
+    top: 450px;
+    left: 15px;
+}
+
+main {
+   
+}
+
+.banner-layer p {
+    position: relative;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.banner-layer {
+    background-color: black;
+    opacity: 60%;
+    width: 95%;
+    height: 390px;
+    position: relative;
+    left: 15px;
+    top: 10px;
+    float: left;
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 50px;
+    color: white;
+    opacity: 1;
+}
+
+.connectbutton {
+    opacity: 1;
+    padding: 25px;
+    background-color: #C68D00;
+    color: black;
+    font-size: 20px;
+    margin: 15px;
+    position: relative;
+    top: 30px;
+    padding-right: 40px;
+}
+
+.digitalbutton {
+    opacity: 1;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+    position: relative;
+    bottom: 600px;
+    padding-right: 40px;
+}
+
+.marketbutton {
+    opacity: 1;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin: 15px;
+    position: relative;
+    top: 700px;
+    padding-right: 40px;
+    left: 25px;
+}
+
+
+.about-us {
+    position: relative;
+    left: 15px;
+    width: 95%;
+    height: 300px;
+    padding-top: 15px;
+    
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.aboutbox {
+    width: 95%;
+    height: 560px;
+    background-color: #ffe6ac;
+    position: relative;
+    top: 55px;
+    left: 15px;
+    float: left;
+}
+
+.aboutbox h2 {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.aboutbox p {
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 13px;
+}
+
+.services {
+    width: 90%;
+    height: 300px;
+    background-color:  #ffe6ac;
+    position: relative;
+    top: 1445px;
+    left: 30px;
+}
+
+.services h2 {
+    padding-left: 5px;
+    position: absolute;
+    top: -400px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.services h3 {
+    padding: 30px;
+    position: relative;
+    bottom: 1340px;
+    padding-bottom: 20px;
+    font-size: 32px;
+}
+
+.services p {
+    padding: 30px; 
+    position: relative;
+    top: 100px; 
+    padding-bottom: 20px;
+}
+
+.digital {
+    padding: 15px;
+    position: relative;
+    bottom: 1300px;
+    left: -15px;
+    width: 100%;
+    height: 400px;
+}
+
+.marketing {
+    padding: 15px;
+    position: relative;
+    top: 795px;
+    padding-left: 30px;
+    width: 90%;
+    height: 400px;
+}
+
+.market h3 {
+    padding: 30px;
+    position: relative;
+    top: 400px;
+    padding-bottom: 20px;
+}
+
+.market p {
+    padding: 30px;
+    position: relative;
+    top: 100px;
+    padding-bottom: 20px;
+}
+
+.vlogging {
+  
+}
+
+.video {
+    padding: 15px;
+    position: relative;
+    top: 1000px;
+    padding-left: 30px;
+    width: 90%;
+    height: 400px;
+}
+
+.vlogging h3 {
+    padding: 30px;
+    position: relative;
+    top: 100px;
+    padding-bottom: 20px;
+}
+
+.vlogging p {
+    padding: 30px;
+    position: relative;
+    top: 100px;
+    padding-bottom: 20px;
+}
+
+.webbing{
+    padding: 15px;
+    position: relative;
+    top: 80px;
+    padding-left: 30px;
+    width: 90%;
+    height: 400px;
+}
+
+.webbing h3 {
+    padding: 30px;
+    position: relative;
+    top: 100px;
+    padding-bottom: 20px;
+}
+
+.webbing p {
+    padding: 30px;
+    position: relative;
+    top: 100px;
+    padding-bottom: 20px;
+}

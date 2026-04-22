@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html Page Mockup</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <div>
+    <div class="headerbox">
         <nav>
+          <div class="orangebox">
             <img src="images/logo.png" class="logo" alt="logo of three angled stars" width="50" height="50">
             <!-- adds the company logo to the head banner. -->
-            <ul>
+            <ul class="headerlist">
                 <li>Home</li>
                 <li>About Us</li>
                 <li>Services</li>
                 <li>Team</li>
                 <li>Contact</li>
             </ul>
-          <div>
+          </div>
+          <div class="searchbar">
             <form action="/search" method="get">
                 <input type="text" placeholder="search">
                 <button type="button"></button>
@@ -29,44 +33,38 @@
     </div>
     <main>
         <div>
-            <h1>Welcome to Three Star Media</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nulla ratione consequuntur perspiciatis eos laborum sed? Temporibus eos asperiores tempora laudantium expedita neque natus praesentium fugiat numquam? Reiciendis, commodi inventore!</p>
-            <div>
-                Connect with us
-                <!-- div placeholder to serve as a button -->
-            </div>
+            <img src="images/main-banner.jpg" class="main-banner" alt="image of office floor">
+                <div class="banner-layer">
+                    <h1>Welcome to Three Star Media</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nulla ratione consequuntur perspiciatis eos laborum sed? Temporibus eos asperiores tempora laudantium expedita neque natus praesentium fugiat numquam? Reiciendis, commodi inventore!</p>
+                    <a href="" target="_blank" class="connectbutton">Connect with us </a>
+                </div> 
         </div>
-        <div>
-            <img src="images/main-banner.jpg" class="main-banner" width="100%" height="1000" alt="image of office floor">
-        </div>
-         <!-- division of the main banner with header and text -->
-        <div>
-            <img src="images/about-us.jpg" class="about-us" alt="pong table in a living room" width="60%" height="600">
+        <div class="aboutbox">
+            <img src="images/about-us.jpg" class="about-us" alt="pong table in a living room">
             <h2> About Us</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus blanditiis alias, ea labore mollitia animi, possimus iure molestias quis consectetur dolor facilis quae deserunt architecto esse officia maxime earum non.</p>
 
             <p>Dolor harum praesentium iure ullam recusandae dolores numquam necessitatibus aperiam iste blanditiis labore tempora rerum explicabo impedit, molestiae perspiciatis illum sed commodi, eos consectetur exercitationem, excepturi facere eligendi quibusdam! Expedita?</p>
         </div>
-     <h2>Our Services</h2>
-        <div>
+        <div class="services">
+            <h2>Our Services</h2>
             <img src="images/digital.jpg" class="digital" alt="person in coffee shop with laptop scrolling phone" width="60%" height="700">
             <h3> Digital Transformation</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iusto reiciendis fugiat qui, aliquam quae. Modi, nisi labore quibusdam debitis, iusto placeat consequuntur ad magnam fuga ex eius, sit iure.</p>
-            <div>
-                Digital Plans
-                <!-- div placeholder to serve as a button -->
-            </div>
+           
+            <a href="" target="_blank" class="digitalbutton">Digital Plans </a>
+            
         </div>
-        <div>
+        <div class="market">
             <img src="images/marketing.jpg" class="marketing" alt="graphs displayed on laptop on glass desk" width="60%" height="700">
             <h3> Marketing</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iusto reiciendis fugiat qui, aliquam quae. Modi, nisi labore quibusdam debitis, iusto placeat consequuntur ad magnam fuga ex eius, sit iure.</p>
-            <div>
-                Marketing Plans
-                <!-- div placeholder to serve as a button -->
-            </div>
+            
+            <a href="" target="_blank" class="marketbutton">Marketing Plans</a>
+            
         </div>
-        <div>
+        <div class="vlogging">
             <img src="images/video.jpg" class="video" alt="hand holding phone with yt logo" width="60%" height="700">
             <h3> Video Production</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iusto reiciendis fugiat qui, aliquam quae. Modi, nisi labore quibusdam debitis, iusto placeat consequuntur ad magnam fuga ex eius, sit iure.</p>
@@ -75,7 +73,7 @@
                 <!-- div placeholder to serve as a button -->
             </div>
         </div>
-        <div>
+        <div class="webbing">
             <img src="images/web.jpg" class="web" alt="pen and phone on notebook" width="60%" height="700">
             <h3> Web Development</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iusto reiciendis fugiat qui, aliquam quae. Modi, nisi labore quibusdam debitis, iusto placeat consequuntur ad magnam fuga ex eius, sit iure.</p>
